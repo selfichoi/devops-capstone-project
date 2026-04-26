@@ -1,9 +1,13 @@
 FROM python:3.9
 
 WORKDIR /app
-COPY . .
 
-RUN pip install flask flask-cors flask-talisman nose flake8
+COPY . /app
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+RUN useradd -m myuser
+USER myuser
 
 EXPOSE 8080
 
