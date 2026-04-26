@@ -1,5 +1,5 @@
-![Build Status](https://github.com/selfichoi/ci-cd-final-project/actions/workflows/ci-build.yaml/badge.svg)
 
+![Build Status](https://github.com/selfichoi/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
 
 # ci-cd-final-project
 
